@@ -1,0 +1,46 @@
+{
+	"easycom": {
+		// 注意一定要放在custom里，否则无效，https://ask.dcloud.net.cn/question/131175
+		"custom": {
+			"^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+//	"subPackages": [
+//		{
+//			"root": "子包根目录",
+//			"pages": [
+//				// 单个页面配置 类似VueRouter
+//				{
+//					"path": "子包根目录下的页面路径",
+//					"style": {
+//						// 以下是常用配置，可省略
+//						"navigationBarTitleText": "顶部文字标题",
+//						"navigationBarBackgroundColor": "顶部背景颜色",
+//						"navigationBarTextStyle": "顶部文字颜色: black| white",
+//						"navigationBarShadow": {
+//							"colorType": "阴影的颜色，支持：grey、blue、green、orange、red、yellow"
+//						},
+//						"navigationStyle": "可选默认/自定义 default | custom",
+//						"backgroundColor": "窗口背景颜色",
+//						"enablePullDownRefresh": "是否开启下拉刷新，布尔值 true | false",
+//						"onReachBottomDistance": "页面上拉触底事件触发时距页面底部距离，单位只支持px"
+//					}
+//				}
+//			]
+//		}
+//	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
